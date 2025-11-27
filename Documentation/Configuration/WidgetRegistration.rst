@@ -267,7 +267,7 @@ Therefore, it is not possible to check for runtime information like URLs, users,
 Instead, this approach can be used to register widgets only if their service dependencies are available.
 The :php:`ContainerBuilder` instance provides a method :php:`hasDefinition()`
 that may be used to check for optional dependencies.
-Make sure to declare the optional dependencies in :file:`composer.json` and :php:`ext_emconf.php` as
+Make sure to declare the optional dependencies in :file:`composer.json` as
 suggested extensions to ensure packages are ordered correctly in order for
 services to be registered with deterministic ordering.
 
